@@ -79,7 +79,7 @@ export default function App() {
           justifyContent: 'space-between',
           paddingHorizontal: 50
         }}> 
-          <TouchableOpacity onPress={() => setImage(null)} style={styles.button}>
+          <TouchableOpacity onPress={() => setImagen(null)} style={styles.button}>
             <Entypo name={"retweet"} size={28} color={'#f1f1f1'}/>
             <Text style={styles.text}>{"Restaurar"}</Text>
         </TouchableOpacity>
